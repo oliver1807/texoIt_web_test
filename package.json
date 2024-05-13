@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "cypress": "^12.14.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "name": "avaliacao_texo",
+  "version": "1.0.0",
+  "description": "Essa automacao tem por finalidade a validacao na url https://jsonplaceholder.typicode.com/",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report || true",
+    "test": "npm-run-all allure:clear cy:run allure:generate",
+    "test:rep": "npm-run-all allure:clear cy:run allure:generate allure:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver1807/texoIt_web.git"
+  },
+  "author": "Luciano Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliver1807/texoIt_web/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/step_definitions"
+  },
+  "homepage": "https://github.com/oliver1807/texoIt_web#readme",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}

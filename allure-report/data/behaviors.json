@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Colecao de dados",
+    "children" : [ {
+      "name" : "Busca de dados do menu Guide",
+      "uid" : "6edffa0eb3dfe54c",
+      "parentUid" : "7d81861d88f5336207510f3924eb5aac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715633883871,
+        "stop" : 1715633891912,
+        "duration" : 8041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7d81861d88f5336207510f3924eb5aac"
+  } ]
+}

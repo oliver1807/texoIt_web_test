@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6edffa0eb3dfe54c",
+  "name" : "Busca de dados do menu Guide",
+  "time" : {
+    "start" : 1715633883871,
+    "stop" : 1715633891912,
+    "duration" : 8041
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Colecao de dados",
+    "children" : [ {
+      "name" : "Busca de dados do menu Guide",
+      "uid" : "6edffa0eb3dfe54c",
+      "parentUid" : "b7a0e0c937a0d262fba63260d81b93a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1715633883871,
+        "stop" : 1715633891912,
+        "duration" : 8041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b7a0e0c937a0d262fba63260d81b93a1"
+  } ]
+}
